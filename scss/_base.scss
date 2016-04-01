@@ -1,0 +1,302 @@
+html {
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  font-family: 'loveloblack', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right{
+  float: right;
+}
+
+.headshot{
+  width: 300px;
+}
+
+.topBar {
+  width: 100%;
+  background: black;
+  position: fixed;
+  z-index: 40;
+  padding: 10px 0;
+}
+.topBar .four{
+  font-size: 24px;
+}
+.topBar .four i{
+  color: red;
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 100;
+}
+.topBar .one i{
+  padding: 0 2px;
+}
+.topBar .one a{
+  color: white;
+  font-size: 14px;
+  line-height: 36px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 250ms ease-in;
+}
+.topBar .one a:hover{
+  color: red;
+}
+.nav .columns{
+  color: white;
+}
+
+.topBar span{
+  color: red;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.splash{
+  margin-bottom: 300px;
+}
+
+.container1{
+  height: 800px;
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+.container1 h2{
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 30px;
+}
+.container1 h2 span{
+  color: #13D4F9;
+}
+ #circleBack{
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 4px solid black;
+  background: white;
+  position: absolute;
+  top: 200px;
+  left: 5.75%;
+  z-index: 2;
+ }
+  #circleBack2{
+  width: 466px;
+  height: 466px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 196px;
+  left: 5.25%;
+  z-index: 0;
+ }
+ #triangle-up {
+  width: 320px; height: 260px;/*
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;*/
+  background: black;
+  position: absolute;
+  top: 360px;
+  left: 15%;
+  z-index: 10;
+}
+ #triangle-upBack {
+  width: 240px; height: 200px;/*
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;*/
+  background: white;
+  position: absolute;
+  top: 355px;
+  left: 11%;
+  z-index: 8;
+}
+ #triangle-down {
+  width: 320px; height: 200px;/*
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;*/
+  background: white;
+  position: absolute;
+  top: 310px;
+  left: 34%;
+  z-index: 5;
+}
+ #triangle-up2 {
+  width: 240px; height: 240px;/*
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;*/
+  background: black;
+  position: absolute;
+  top: 240px;
+  left: 28%;
+  z-index: 4;
+}
+
+.keyTech {
+  width: 100%;
+  background: #ECECEC;
+  padding: 60px 0;
+}
+
+.keyTech h2{
+  color: black;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.techCircle{
+  background: black;
+  color: white;
+  border-radius: 50%;
+  width:211px; height:211px;
+  min-width: 211px;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 6vw;
+  display: inline-block;
+}
+
+.techCircle p{
+  font-size: 2vw;
+  margin-top: -20px;
+}
+
+
+.about {
+  background: #FFF;
+  color: black;
+  padding: 60px;
+}
+
+.about h3{
+  font-size: 24px;
+}
+.about h3 span{
+  font-size: 38px;
+}
+
+.about p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.about a{
+  color: black;
+  font-size: 20px;
+  margin-left: -62px;
+}
+.about a i{
+  font-size: 48px;
+}
+
+.animation .row .columns {
+  min-height: 400px;
+  margin-bottom: 40px;
+}
+
+.projects {
+  background: #ECECEC;
+  padding: 60px;
+  color: black;
+}
+.projects h3{
+  font-size: 24px;
+}
+.projects ul{
+  margin-left: -25px;
+}
+.projects ul li{
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+  transition: all .5s ease-in;
+}
+.projects ul li:hover{
+  background: #cfcfcf;
+  cursor: pointer;
+  color: white;
+}
+.projects ul li i{
+  margin-left: 5px;
+  color: #ECECEC;
+}
+.projects ul li a{
+  color: black;
+  text-decoration: none;
+}
+.projects span {
+  background: #EE1524;
+  height: 30px;
+  color: white;
+  margin-right: 20px;
+  text-align: center;
+  width: 0;
+  display: inline-block;
+  transition: 0.2s linear;
+}
+.projects ul li:hover span {
+  width: 30px;
+}
+
+
+.contact {
+  background: black;
+  padding: 60px 0 140px;
+  color: white;
+}
+
+.contact h4{
+  margin-top: 6px;
+  color: #12D4F9;
+}
+
+.getSoc p{
+  font-size: 24px;
+}
+
+.getSoc ul li{
+  display: inline;
+  list-style: none;
+}
+
+.getSoc ul li a{
+  color: white;
+  font-size: 30px;
+  padding: 0 10px;
+  transition: all 250ms ease-in;
+}
+.getSoc ul li a:hover{
+  color: red;
+}
+.getSoc ul li a#first{
+  margin-left: -10px;
+}
+
+.blackSpan{
+  background: white;
+  color: black;
+  padding: 5px 20px;
+  margin-right: 10px;
+}
+
+footer {
+  color: white;
+  background: black;
+  text-align: center;
+  font-size: 1.25vw;
+  margin: -60px 0 0 0;
+}
