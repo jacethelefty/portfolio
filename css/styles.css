@@ -1059,6 +1059,7 @@ border-right: 200px solid transparent;*/
 
 .fa-plane {
   margin-right: -50px;
+  display: inline-block;
   -ms-transform: rotate(45deg);
   /* IE 9 */
   -webkit-transform: rotate(45deg);
