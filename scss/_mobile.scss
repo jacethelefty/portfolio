@@ -117,6 +117,10 @@
   @media screen and (-webkit-min-device-pixel-ratio:0) {
   /* the CSS styling below will only be picked up by Safari and Chrome */
 
+  .techCircle{
+    margin: 10px 2px;
+  }
+
    .techCircle:first-of-type{
     margin-left: 2px;
   }
