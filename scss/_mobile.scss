@@ -1,5 +1,8 @@
 /* Smaller like mobile */
 @media (max-width: 400px) {
+  html {
+    background: none;
+  }
   .twelve.columns{ width: 100%; margin-left: 0; }
   .about, .projects, .contact {
     padding: 40px 20px;
@@ -115,7 +118,7 @@
   /* the CSS styling below will only be picked up by Safari and Chrome */
 
    .techCircle:first-of-type{
-    margin-left: 0;
+    margin-left: -5px;
   }
 
   #projh2{
