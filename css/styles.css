@@ -1058,6 +1058,7 @@ border-right: 200px solid transparent;*/
   margin-bottom: 40px; }
 
 .fa-plane {
+  margin-right: -50px;
   -ms-transform: rotate(45deg);
   /* IE 9 */
   -webkit-transform: rotate(45deg);
