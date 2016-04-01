@@ -1375,7 +1375,7 @@ footer {
 @media screen and (max-width: 400px) and (-webkit-min-device-pixel-ratio: 0) {
   /* the CSS styling below will only be picked up by Safari and Chrome */
   .techCircle {
-    margin: 10px 2px; }
+    margin: 10px 0; }
 
   .techCircle:first-of-type {
     margin-left: 2px; }
