@@ -1,15 +1,15 @@
 #axis:hover .move-right{
-    transform: translate(240px,0);
-    -webkit-transform: translate(240px,0); /** Chrome & Safari **/
-    -o-transform: translate(240px,0); /** Opera **/
-    -moz-transform: translate(240px,0); /** Firefox **/
+    transform: translate(240px,-200px);
+    -webkit-transform: translate(240px,-200px); /** Chrome & Safari **/
+    -o-transform: translate(240px,-200px); /** Opera **/
+    -moz-transform: translate(240px,-200px); /** Firefox **/
 }
 .object {
     transition: all 2s ease-in-out;
     -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
     -moz-transition: all 2s ease-in-out; /** Firefox **/
     -o-transition: all 2s ease-in-out; /** Opera **/
-    
+
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
