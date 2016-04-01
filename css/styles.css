@@ -1065,7 +1065,7 @@ border-right: 200px solid transparent;*/
   -webkit-transform: rotate(45deg);
   /* Chrome, Safari, Opera */
   transform: rotate(45deg);
-  position: absolute;
+  position: relative;
   z-index: 5000; }
 
 .projects {
