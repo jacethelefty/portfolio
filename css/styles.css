@@ -1178,11 +1178,7 @@ footer {
   -moz-transform: translate(350px, 0);
   /** Firefox **/ }
 
-#iconwrap {
-  position: relative; }
-
 .object {
-  position: absolute;
   transition: all 2s ease-in-out;
   -webkit-transition: all 2s ease-in-out;
   /** Chrome & Safari **/
