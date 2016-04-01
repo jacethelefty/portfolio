@@ -1363,7 +1363,7 @@ footer {
   .contact h4 {
     margin-top: 40px; }
 
-  .getSoc p {
+  .getSoc p, .getSoc p a {
     font-size: 16px; }
 
   .blackSpan {
