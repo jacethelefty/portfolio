@@ -1309,7 +1309,7 @@ footer {
     font-size: 24px; }
 
   .about a {
-    margin-left: 0px;
+    margin-left: 0;
     margin-top: 120px;
     display: block; }
 
