@@ -26,8 +26,8 @@ $(window).scroll(function () {
 /* =============== width on scroll =============== */
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > '880') {
-      $("#skl1, #skl2, #skl3, #skl4, #skl5, #skl6, #skl7, #skl8").show(2000, 'swing');
+    if ($(this).scrollTop() > '980') {
+      $("#skl1, #skl2, #skl3, #skl4, #skl5, #skl6, #skl7, #skl8").show(1500, 'swing');
     }else{
       $("#skl1, #skl2, #skl3, #skl4, #skl5, #skl6, #skl7, #skl8").hide(1000);
     }
