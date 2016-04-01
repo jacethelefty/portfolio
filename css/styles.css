@@ -1366,8 +1366,15 @@ footer {
   .contact h4 {
     margin-top: 40px; }
 
+  .getSoc p {
+    font-size: 16px; }
+
+  .blackSpan {
+    padding: 4px 10px;
+    margin-right: 10px; }
+
   .getSoc ul li a#first {
-    margin-left: 0; }
+    margin-left: 4px; }
 
   footer {
     margin: 0;
