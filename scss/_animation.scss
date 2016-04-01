@@ -1,0 +1,83 @@
+.animation{
+  position: relative;
+}
+
+#skl1, #skl2, #skl3, #skl4, #skl5, #skl6, #skl7, #skl8{
+  position: absolute;
+  display: none;
+  height: 34px;
+  background-color: #49C2DA;
+  float: left;
+  margin: 10px 0 5px 0;
+  padding-left: 10px;
+  font-size: 26px;
+  line-height: 38px;
+  overflow:hidden;
+  max-width: 99%;
+}
+#skl1{
+  top: 100px;
+  left: 0;
+  width:90%;
+  max-width: 90%;
+  float: left;
+  margin-top: -20px;
+}
+.right{
+  margin-right: 5px;
+}
+#skl2{
+  top: 115px;
+  left: 0;
+  width:75%;
+  max-width: 75%;
+}
+#skl3{
+  top: 160px;
+  left: 0;
+  width:70%;
+  max-width: 70%;
+}
+#skl4{
+  top: 205px;
+  left: 0;
+  width:70%;
+  max-width: 70%;
+}
+#skl5{
+  top: 250px;
+  left: 0;
+  width:65%;
+  max-width: 65%;
+}
+#skl6{
+  top: 295px;
+  left: 0;
+  width:50%;
+  max-width: 50%;
+}
+#skl7{
+  top: 340px;
+  left: 0;
+  width:65%;
+  max-width: 65%;
+}
+#skl8{
+  top: 385px;
+  left: 0;
+  width:96%;
+  max-width: 96%;
+}
+
+/* Smaller like mobile */
+@media (max-width: 400px) {
+  #skl1, #skl2, #skl3, #skl4, #skl5, #skl6, #skl7, #skl8{
+    height: 34px;
+    font-size: 18px;
+    line-height: 37px;
+
+  }
+  #skl1{
+    top:100px;
+  }
+}

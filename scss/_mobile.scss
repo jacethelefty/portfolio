@@ -1,0 +1,127 @@
+/* Smaller like mobile */
+@media (max-width: 400px) {
+  .twelve.columns{ width: 100%; margin-left: 0; }
+  .about, .projects, .contact {
+    padding: 40px 20px;
+  }
+  .topBar{
+    position: relative;
+  }
+  .topBar .four{
+    font-size: 30px;
+  }
+  .topBar .four i{
+    margin-left: 4px;
+    font-size: 36px;}
+  .topBar .twelve{
+    text-align: center;
+  }
+  .topBar .twelve a{
+    padding: 4px;
+    width: 36px;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .topBar .twelve a.full{
+    width: 280px;
+  }
+  .topBar .twelve a:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .container1{
+    display: none;
+  }
+
+  .techCircle{
+    width:71px; height:71px;
+    min-width: 71px;
+  }
+
+  .techCircle p{
+    font-size: 2.5vw;
+    margin-top: -4px;
+  }
+
+  .techCircle i{
+    margin-top: 14px;
+    font-size: 7vw;
+  }
+
+  .keyTech h2{
+    font-size: 6vw;
+    margin-top: -20px;
+  }
+  .about{
+    height: 1300px;
+  }
+  .about p{
+    font-size: 16px;
+  }
+  .about h3{
+    font-size: 17px;
+  }
+  .about h3 span{
+      font-size: 24px;
+  }
+  .about a{
+    margin-left: 18px;
+    margin-top: 135px;
+    display: block;
+  }
+  .headshot{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+  .animation .row .columns{
+    min-height: 255px;
+    margin-bottom: 60px;
+  }
+
+  .animation .row .columns h2{
+    margin-left: -10px;
+  }
+
+  .projects ul{
+    margin-left: -6px;
+  }
+  .projects ul li{
+    font-size: 10px;
+    text-decoration: underline;
+  }
+  #projh2{
+    margin-top: -30px;
+  }
+  .tall{
+    min-height: 380px;
+  }
+  #hideEmail{
+    font-size: 12px;
+  }
+  .contact h4{
+    margin-top: 40px;
+  }
+  .getSoc ul li a#first{
+    margin-left: 40px;
+  }
+  footer{
+    margin: 0;
+    font-size: 3vw;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  /* the CSS styling below will only be picked up by Safari and Chrome */
+
+   .techCircle:first-of-type{
+    margin-left: 30px;
+  }
+
+  #projh2{
+    margin-top: 10px;
+  }
+
+  }
+
+}
