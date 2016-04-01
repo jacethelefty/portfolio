@@ -1064,7 +1064,9 @@ border-right: 200px solid transparent;*/
   /* IE 9 */
   -webkit-transform: rotate(45deg);
   /* Chrome, Safari, Opera */
-  transform: rotate(45deg); }
+  transform: rotate(45deg);
+  position: absolute;
+  z-index: 5000; }
 
 .projects {
   background: #ECECEC;
