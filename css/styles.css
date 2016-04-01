@@ -1170,12 +1170,12 @@ footer {
   font-weight: normal;
   font-style: normal; }
 #axis:hover .move-right {
-  transform: translate(350px, 0);
-  -webkit-transform: translate(350px, 0);
+  transform: translate(200px, 0);
+  -webkit-transform: translate(200px, 0);
   /** Chrome & Safari **/
-  -o-transform: translate(350px, 0);
+  -o-transform: translate(200px, 0);
   /** Opera **/
-  -moz-transform: translate(350px, 0);
+  -moz-transform: translate(200px, 0);
   /** Firefox **/ }
 
 .object {
