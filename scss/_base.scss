@@ -208,6 +208,12 @@ img {
   margin-bottom: 40px;
 }
 
+.fa-plane{
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
 .projects {
   background: #ECECEC;
   padding: 60px;
