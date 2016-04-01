@@ -1248,7 +1248,7 @@ footer {
     margin-left: 0; }
 
   .about, .projects, .contact {
-    padding: 40px 20px; }
+    padding: 40px 10px 40px 20px; }
 
   .topBar {
     position: relative; }
