@@ -1350,7 +1350,7 @@ footer {
 @media screen and (max-width: 400px) and (-webkit-min-device-pixel-ratio: 0) {
   /* the CSS styling below will only be picked up by Safari and Chrome */
   .techCircle:first-of-type {
-    margin-left: 10px; }
+    margin-left: 0; }
 
   #projh2 {
     margin-top: 10px; } }
