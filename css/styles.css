@@ -1323,7 +1323,7 @@ footer .fa {
     font-size: 7.5vw; }
 
   .keyTech h2 {
-    font-size: 6vw;
+    font-size: 4vw;
     margin-top: -20px; }
 
   .about {
@@ -1408,10 +1408,10 @@ footer .fa {
 @media (min-width: 400px) {
   .topBar .four {
     padding-top: 30px;
-    font-size: 28px; }
+    font-size: 5vw; }
 
   .topBar .four i {
-    font-size: 32px; }
+    font-size: 5.25vw; }
 
   .topBar .one a {
     font-size: 18px;
