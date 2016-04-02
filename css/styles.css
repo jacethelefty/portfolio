@@ -1426,13 +1426,13 @@ footer .fa {
     height: 1222px; }
 
   .about p {
-    width: 290px;
+    width: 260px;
     float: left; }
 
   .headshot {
-    width: 250px;
+    width: 180px;
     display: inline-block;
-    margin: -285px auto;
+    margin: -260px auto;
     float: right; }
 
   .animation .row .columns h2 {
