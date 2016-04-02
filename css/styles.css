@@ -1407,6 +1407,7 @@ footer .fa {
     margin-top: 10px; } }
 @media (min-width: 400px) {
   .topBar .four {
+    padding-top: 30px;
     font-size: 28px; }
 
   .topBar .four i {
