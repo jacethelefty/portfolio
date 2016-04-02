@@ -1406,6 +1406,16 @@ footer .fa {
   #projh2 {
     margin-top: 10px; } }
 @media (min-width: 400px) {
+  .topBar .four {
+    font-size: 28px; }
+
+  .topBar .four i {
+    font-size: 32px; }
+
+  .topBar .one a {
+    font-size: 18px;
+    line-height: 36px; }
+
   .techCircle {
     width: 122px;
     height: 122px;
