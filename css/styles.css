@@ -1356,7 +1356,8 @@ footer .fa {
     margin-left: -10px; }
 
   .projects span {
-    width: 30px; }
+    width: 30px;
+    padding-right: 3px; }
 
   .projects ul {
     margin-left: 6px; }
