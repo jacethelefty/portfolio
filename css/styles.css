@@ -888,7 +888,7 @@ img {
   font-size: 24px; }
 
 .topBar .four i {
-  color: red;
+  color: #EE1524;
   margin-left: 50px;
   font-size: 30px;
   font-weight: 100; }
@@ -905,13 +905,13 @@ img {
   transition: all 250ms ease-in; }
 
 .topBar .one a:hover {
-  color: red; }
+  color: #EE1524; }
 
 .nav .columns {
   color: white; }
 
 .topBar span {
-  color: red;
+  color: #EE1524;
   font-size: 40px;
   padding: 5px; }
 
@@ -1127,7 +1127,7 @@ border-right: 200px solid transparent;*/
   transition: all 250ms ease-in; }
 
 .getSoc ul li a:hover {
-  color: red; }
+  color: #EE1524; }
 
 .getSoc ul li a#first {
   margin-left: -10px; }
