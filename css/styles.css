@@ -1360,7 +1360,7 @@ footer .fa {
     padding-right: 3px; }
 
   .projects ul {
-    margin-left: 6px; }
+    margin-left: 0px; }
 
   .projects ul li {
     font-size: 10px;
@@ -1426,6 +1426,9 @@ footer .fa {
     height: 1222px; }
 
   .animation .row .columns h2 {
-    margin-left: -2px; } }
+    margin-left: -2px; }
+
+  .projects ul {
+    margin-left: 10px; } }
 
 /*# sourceMappingURL=styles.css.map */
