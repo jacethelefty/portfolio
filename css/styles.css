@@ -1422,7 +1422,10 @@ footer .fa {
   .techCircle:first-of-type {
     margin-left: -18px; }
 
+  .about {
+    height: 1222px; }
+
   .animation .row .columns h2 {
-    margin-left: 2px; } }
+    margin-left: -2px; } }
 
 /*# sourceMappingURL=styles.css.map */
