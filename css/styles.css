@@ -1405,5 +1405,18 @@ footer .fa {
 
   #projh2 {
     margin-top: 10px; } }
+@media (min-width: 400px) {
+  .techCircle {
+    width: 100px;
+    height: 100px;
+    min-width: 100px; }
+
+  .techCircle p {
+    font-size: 3.75vw;
+    margin-top: -2px; }
+
+  .techCircle i {
+    margin-top: 18px;
+    font-size: 8.5vw; } }
 
 /*# sourceMappingURL=styles.css.map */
