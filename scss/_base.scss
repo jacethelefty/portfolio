@@ -25,7 +25,7 @@ img {
 
 .topBar {
   width: 100%;
-  background: #202121;
+  background: black;
   position: fixed;
   z-index: 40;
   padding: 10px 0;
@@ -87,7 +87,7 @@ img {
   width: 450px;
   height: 450px;
   border-radius: 50%;
-  border: 4px solid #202121;
+  border: 4px solid black;
   background: white;
   position: absolute;
   top: 200px;
@@ -108,7 +108,7 @@ img {
   width: 320px; height: 260px;/*
   border-left: 200px solid transparent;
   border-right: 200px solid transparent;*/
-  background: #202121;
+  background: black;
   position: absolute;
   top: 360px;
   left: 15%;
@@ -138,7 +138,7 @@ img {
   width: 240px; height: 240px;/*
   border-left: 200px solid transparent;
   border-right: 200px solid transparent;*/
-  background: #202121;
+  background: black;
   position: absolute;
   top: 240px;
   left: 28%;
@@ -152,13 +152,13 @@ img {
 }
 
 .keyTech h2{
-  color: #202121;
+  color: black;
   text-align: center;
   font-size: 2vw;
 }
 
 .techCircle{
-  background: #202121;
+  background: black;
   color: white;
   border-radius: 50%;
   width:211px; height:211px;
@@ -177,7 +177,7 @@ img {
 
 .about {
   background: #FFF;
-  color: #202121;
+  color: black;
   padding: 60px;
 }
 
@@ -195,7 +195,7 @@ img {
 }
 
 .about a{
-  color: #202121;
+  color: black;
   font-size: 20px;
   margin-left: -67px;
 }
@@ -216,7 +216,7 @@ img {
 .projects {
   background: #ECECEC;
   padding: 60px;
-  color: #202121;
+  color: black;
 }
 .projects h3{
   font-size: 24px;
@@ -240,7 +240,7 @@ img {
   color: #ECECEC;
 }
 .projects ul li a{
-  color: #202121;
+  color: black;
   text-decoration: none;
 }
 .projects span {
@@ -259,7 +259,7 @@ img {
 
 
 .contact {
-  background: #202121;
+  background: black;
   padding: 60px 0 140px;
   color: white;
 }
@@ -293,14 +293,14 @@ img {
 
 .blackSpan{
   background: white;
-  color: #202121;
+  color: black;
   padding: 5px 20px;
   margin-right: 10px;
 }
 
 footer {
   color: white;
-  background: #202121;
+  background: black;
   text-align: center;
   font-size: 1.25vw;
   margin: -60px 0 0 0;
