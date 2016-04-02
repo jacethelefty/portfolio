@@ -1269,7 +1269,7 @@ footer .fa {
   #skl1 {
     top: 100px; } }
 /* Smaller like mobile */
-@media (max-width: 400px) {
+@media (max-width: 668px) {
   html {
     background: none; }
 
@@ -1395,7 +1395,7 @@ footer .fa {
 
   footer .fa {
     font-size: 20px; } }
-@media screen and (max-width: 400px) and (-webkit-min-device-pixel-ratio: 0) {
+@media screen and (max-width: 668px) and (-webkit-min-device-pixel-ratio: 0) {
   /* the CSS styling below will only be picked up by Safari and Chrome */
   .techCircle {
     margin: 10px 0; }
