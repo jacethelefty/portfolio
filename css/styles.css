@@ -1425,6 +1425,16 @@ footer .fa {
   .about {
     height: 1222px; }
 
+  .about p {
+    width: 290px;
+    float: left; }
+
+  .headshot {
+    width: 250px;
+    display: inline-block;
+    margin: -285px auto;
+    float: right; }
+
   .animation .row .columns h2 {
     margin-left: -2px; }
 
