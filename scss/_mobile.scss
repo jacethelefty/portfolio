@@ -16,6 +16,7 @@
   .topBar .four i{
     margin-left: 4px;
     font-size: 36px;}
+
   .topBar .twelve{
     text-align: center;
   }
@@ -149,17 +150,17 @@
 
 }
 
-@media (min-width: 400px) {
+@media (min-width: 400px) and (max-width: 668px) {
   .topBar .four{
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 5vw;
   }
   .topBar .four i{
     font-size: 5.25vw;
   }
   .topBar .one a{
-    font-size: 18px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 66px;
   }
   .techCircle{
     width:122px; height:122px;
@@ -202,7 +203,14 @@
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
   .topBar .four{
-    padding-top: 10px;
-    font-size: 3vw;
+    padding-top: 0;
+    font-size: 30px;
+  }
+  .topBar .four i{
+    margin-left: 60px;
+    font-size: 36px;
+  }
+  .topBar .one a{
+    line-height: 46px;
   }
 }

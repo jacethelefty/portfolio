@@ -39,15 +39,26 @@
 <body>
 
   <ul class="navigation">
-  	<li class="nav-item"><a href="#">Home</a></li>
-  	<li class="nav-item"><a href="#">Portfolio</a></li>
-  	<li class="nav-item"><a href="#">About</a></li>
-  	<li class="nav-item"><a href="#">Blog</a></li>
-  	<li class="nav-item"><a href="#">Contact</a></li>
+  	<li class="nav-item"><a id="navSpec1" href="#topAnch">Home</a></li>
+  	<li class="nav-item"><a id="navSpec2" href="#tech">Tech</a></li>
+  	<li class="nav-item"><a id="navSpec3" href="#about">About</a></li>
+  	<li class="nav-item"><a id="navSpec4" href="#projects">Projects</a></li>
+  	<li class="nav-item"><a id="navSpec5" href="#contact">Contact</a></li>
+    <li class="nav-item" id="navSpec6">
+      <a href="#" id="navSpec6">
+        <i class="fa fa-envelope-o"></i>
+      </a>
+      <a href="#" id="navSpec7">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a href="#" id="navSpec8">
+        <i class="fa fa-github"></i>
+      </a>
+    </li>
   </ul>
 
   <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-  <label for="nav-trigger"></label>
+  <label for="nav-trigger"><i class="fa fa-bars"></i></label>
 
   <div class="site-wrap">
 
@@ -57,11 +68,11 @@
 
       <div class="row nav">
         <div class="navbtn four columns"><i class="fa fa-code"></i>JASON MONTOYA</div>
-        <div class="navbtn one column offset-by-three"><a href="#tech" class="full">Tech</a></div>
-        <div class="navbtn one column"><a href="#about" class="full">About</a></div>
-        <div class="navbtn one column"><a href="#projects" class="full">Projects</a></div>
-        <div class="navbtn one column"><a href="#contact" class="full">Contact</a></div>
-        <div class="one column">
+        <div class="hide navbtn one column offset-by-three"><a href="#tech" class="full">Tech</a></div>
+        <div class="hide navbtn one column"><a href="#about" class="full">About</a></div>
+        <div class="hide navbtn one column"><a href="#projects" class="full">Projects</a></div>
+        <div class="hide navbtn one column"><a href="#contact" class="full">Contact</a></div>
+        <div class="hide one column">
           <a href="#">
             <i class="fa fa-envelope-o"></i>
           </a>
@@ -310,10 +321,16 @@
 
 <script type='text/javascript'>
 
+  $(document).scroll(function() {
+    $(".fa-bars").css("color", "#EE1524").scrollTop(100);
+  });
 
+</script>
 
-
-
+<script type='text/javascript'>
+    $(".nav-trigger").on("click", function() {
+      $(".topBar .one").toggle();
+    });
 </script>
 
 
