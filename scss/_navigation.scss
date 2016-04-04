@@ -126,11 +126,11 @@ label[for="nav-trigger"] {
 }
 
 .nav-trigger:checked + label {
-  right: 180px;
+  right: 160px;
 }
 
 .nav-trigger:checked ~ .site-wrap {
-  right: 180px;
+  right: 160px;
   box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
 }
 

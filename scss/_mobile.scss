@@ -14,10 +14,10 @@
   .topBar{
     position: relative;
   }
-  .topBar .four{
+  .topBar .five{
     font-size: 30px;
   }
-  .topBar .four i{
+  .topBar .five i{
     margin-left: 4px;
     font-size: 36px;}
 
@@ -155,11 +155,11 @@
 }
 
 @media (min-width: 400px) and (max-width: 668px) {
-  .topBar .four{
+  .topBar .five{
     padding-top: 10px;
     font-size: 5vw;
   }
-  .topBar .four i{
+  .topBar .five i{
     font-size: 5.25vw;
   }
   .topBar .one a{
@@ -206,15 +206,29 @@
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  .topBar .four{
+  .topBar .five{
     padding-top: 0;
     font-size: 30px;
   }
-  .topBar .four i{
+  .topBar .five i{
     margin-left: 60px;
     font-size: 36px;
   }
   .topBar .one a{
     line-height: 46px;
   }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) and (max-width: 1020px){
+  .topBar .one a{
+    color:black;
+  }
+  .topBar .one i{
+    padding: 0;
+  }
+  .topBar .five i{
+    margin-left: 10px;
+  }
+
 }

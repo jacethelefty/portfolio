@@ -883,17 +883,17 @@ img {
   z-index: 40;
   padding: 10px 0; }
 
-.topBar .four {
+.topBar .five {
   font-size: 24px; }
 
-.topBar .four i {
+.topBar .five i {
   color: #EE1524;
   margin-left: 46px;
   font-size: 28px;
   font-weight: 100; }
 
 .topBar .one i {
-  padding: 0 2px; }
+  padding: 0; }
 
 .topBar .one a {
   color: white;
@@ -941,7 +941,7 @@ img {
   border: 4px solid black;
   background: white;
   position: absolute;
-  top: 110px;
+  top: 160px;
   left: 5.75%;
   z-index: 2; }
 
@@ -951,7 +951,7 @@ img {
   border-radius: 50%;
   background: white;
   position: absolute;
-  top: 106px;
+  top: 156px;
   left: 5.25%;
   z-index: 0; }
 
@@ -963,7 +963,7 @@ border-left: 200px solid transparent;
 border-right: 200px solid transparent;*/
   background: black;
   position: absolute;
-  top: 270px;
+  top: 320px;
   left: 15%;
   z-index: 10; }
 
@@ -975,7 +975,7 @@ border-left: 200px solid transparent;
 border-right: 200px solid transparent;*/
   background: white;
   position: absolute;
-  top: 265px;
+  top: 315px;
   left: 11%;
   z-index: 8; }
 
@@ -987,7 +987,7 @@ border-left: 200px solid transparent;
 border-right: 200px solid transparent;*/
   background: white;
   position: absolute;
-  top: 220px;
+  top: 270px;
   left: 34%;
   z-index: 5; }
 
@@ -999,7 +999,7 @@ border-left: 200px solid transparent;
 border-right: 200px solid transparent;*/
   background: black;
   position: absolute;
-  top: 150px;
+  top: 200px;
   left: 28%;
   z-index: 4; }
 
@@ -1289,10 +1289,10 @@ label[for="nav-trigger"] {
   transition: right 0.5s; }
 
 .nav-trigger:checked + label {
-  right: 180px; }
+  right: 160px; }
 
 .nav-trigger:checked ~ .site-wrap {
-  right: 180px;
+  right: 160px;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); }
 
 body {
@@ -1414,10 +1414,10 @@ body {
   .topBar {
     position: relative; }
 
-  .topBar .four {
+  .topBar .five {
     font-size: 30px; }
 
-  .topBar .four i {
+  .topBar .five i {
     margin-left: 4px;
     font-size: 36px; }
 
@@ -1537,11 +1537,11 @@ body {
   #projh2 {
     margin-top: 10px; } }
 @media (min-width: 400px) and (max-width: 668px) {
-  .topBar .four {
+  .topBar .five {
     padding-top: 10px;
     font-size: 5vw; }
 
-  .topBar .four i {
+  .topBar .five i {
     font-size: 5.25vw; }
 
   .topBar .one a {
@@ -1584,15 +1584,25 @@ body {
     margin-left: 10px; } }
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  .topBar .four {
+  .topBar .five {
     padding-top: 0;
     font-size: 30px; }
 
-  .topBar .four i {
+  .topBar .five i {
     margin-left: 60px;
     font-size: 36px; }
 
   .topBar .one a {
     line-height: 46px; } }
+/* Larger than tablet */
+@media (min-width: 750px) and (max-width: 1020px) {
+  .topBar .one a {
+    color: black; }
+
+  .topBar .one i {
+    padding: 0; }
+
+  .topBar .five i {
+    margin-left: 10px; } }
 
 /*# sourceMappingURL=styles.css.map */
