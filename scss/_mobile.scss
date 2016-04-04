@@ -198,3 +198,11 @@
     margin-left: 10px;
   }
 }
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .topBar .four{
+    padding-top: 10px;
+    font-size: 3vw;
+  }
+}
