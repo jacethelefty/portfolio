@@ -230,6 +230,22 @@
   .topBar .five i{
     margin-left: 10px;
   }
+  .techCircle{
+    width: 170px; height: 170px; min-width: 170px;
+    font-size: 8vw;
+  }
+  .about a{
+    margin-left: -126px;
+  }
+  .headshot{
+    margin-top: 80px;
+  }
+  .projects ul li {
+    font-size: 14px;
+  }
+  .getSoc p{
+    font-size: 16px;
+  }
 
 }
 
@@ -237,5 +253,24 @@
 @media (min-width: 1020px) {
   .topBar .one a{
     line-height: 48px;
+  }
+  .keyTech h2{
+    font-size: 4vw;
+  }
+  .techCircle{
+    width: 180px; height: 180px; min-width: 180px;
+    font-size: 8vw;
+  }
+  .headshot{
+    margin-top: 80px;
+  }
+  .about a{
+    margin-left: -120px;
+  }
+  .projects ul li {
+    font-size: 15px;
+  }
+  .getSoc p{
+    font-size: 20px;
   }
 }
