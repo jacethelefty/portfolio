@@ -215,7 +215,7 @@
     font-size: 36px;
   }
   .topBar .one a{
-    line-height: 46px;
+    line-height: 10px;
   }
 }
 
@@ -231,4 +231,11 @@
     margin-left: 10px;
   }
 
+}
+
+/* Larger than desktop */
+@media (min-width: 1020px) {
+  .topBar .one a{
+    line-height: 48px;
+  }
 }

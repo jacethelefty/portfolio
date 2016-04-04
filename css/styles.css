@@ -1593,7 +1593,7 @@ body {
     font-size: 36px; }
 
   .topBar .one a {
-    line-height: 46px; } }
+    line-height: 10px; } }
 /* Larger than tablet */
 @media (min-width: 750px) and (max-width: 1020px) {
   .topBar .one a {
@@ -1604,5 +1604,9 @@ body {
 
   .topBar .five i {
     margin-left: 10px; } }
+/* Larger than desktop */
+@media (min-width: 1020px) {
+  .topBar .one a {
+    line-height: 48px; } }
 
 /*# sourceMappingURL=styles.css.map */
